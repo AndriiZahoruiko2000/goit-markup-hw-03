@@ -37,6 +37,44 @@ ul {
   padding: 0;
 }
 
+.container {
+  width: 1600px;
+  height: 80px;
+}
+
+/* site-nav */
+
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+
+.site-nav .item {
+  margin-right: 50px;
+}
+
+.site-nav .item:last-child {
+  margin-right: 32px;
+}
+
+/* main-nav */
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+/* auth-nav */
+
+.auth-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.auth-nav .item + .item {
+  margin-left: 50px;
+}
+
 /* Logo */
 
 .nav-link {
@@ -46,6 +84,7 @@ ul {
   line-height: 1.19;
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
+  margin-left: 32px;
 }
 
 .first-part-logo {
